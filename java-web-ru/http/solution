@@ -1,4 +1,4 @@
-POST /upload HTTP/1.1\
+POST /upload HTTP/1.1
 host: hexlet.local
 Content-type: text-plain
 Content-Length: 15
