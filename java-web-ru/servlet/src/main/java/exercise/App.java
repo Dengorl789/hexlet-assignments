@@ -17,7 +17,7 @@ public class App {
         return 8000;
     }
 
-    public static Tomcat getApp(int port) {
+    public static Tomcat getApp(int port) throws LifecycleException {
         Tomcat app = new Tomcat();
 
         app.setBaseDir(System.getProperty("java.io.tmpdir"));
